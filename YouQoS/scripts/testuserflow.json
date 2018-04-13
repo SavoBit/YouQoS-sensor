@@ -1,0 +1,6 @@
+{"ip_usr":"1.2.3.4",
+"ip_dst":"5.6.7.8",
+"port_usr":"666",
+"port_dst":"555",
+"priority":1
+}

@@ -1,0 +1,2 @@
+curl -i -H "Content-Type: application/json" -X POST -d '{ "push_url":"http://127.0.0.1:5001/addYouQoSflow","user_maxflows":2  }' http://127.0.0.1:5000/config/setcfg
+curl -i -H "Content-Type: application/json" -X POST -d '{"ip_usr":"127.0.0.1","ip_dst":"192.168.1.1","port_usr":66,"port_dst":55,"priority":1}' http://127.0.0.1:5000/addflow

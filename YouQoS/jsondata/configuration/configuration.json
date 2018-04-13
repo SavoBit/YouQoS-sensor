@@ -1,0 +1,26 @@
+{
+"parameters":[
+	{
+	"config-action":"configure",
+	"config-values":[
+		{
+		"parameter":"push_url",
+		"name":"url where to push the data"
+		},
+		{
+		"parameter":"user_maxflows",
+		"name":"max flows per user"
+		}
+		]
+	}],
+"communication":
+	{
+	"protcol":"REST",
+	"endpoints":[
+		{
+		"config-action":"configure",
+		"value":"<ip>:5000/setcfg"
+		}
+	]
+}
+}

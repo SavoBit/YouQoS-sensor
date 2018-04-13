@@ -1,0 +1,14 @@
+{
+"app-family":"SENSOR",
+"app-class":"VNF",
+"app-type":"vYouQoS",
+"app-name":"vYouQoS",
+"app-version":"0.1",
+"upload":"true",
+"vm-images":[{
+	"name":"YouQoS_img",
+	"link":"./YouQoS.tar.bz2",
+	"container-format":"BARE",
+	"disk-format":"QCOW2",
+	}]
+}
