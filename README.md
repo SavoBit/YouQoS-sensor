@@ -6,6 +6,6 @@ For further information see:
 * https://ieeexplore.ieee.org/document/7109502/
 
 ## Install and usage:
-The sensors core functionality is provided by the script YouQoS/scripts/YouQoS.py which can also used standalone
-To generate a SELFNET-kvm image run YouQoS/create.sh
-To onboard the created image into SELFNET use the description files proveded in YouQoS/jsondata/
+The sensors core functionality is provided by the script [YouQoS/scripts/YouQoS.py](YouQoS/scripts/YouQoS.py) which can also used standalone
+To generate a SELFNET-kvm image run [YouQoS/create.sh](YouQoS/create.sh)
+To onboard the created image into SELFNET use the description files proveded in [YouQoS/jsondata/](YouQoS/jsondata/)
